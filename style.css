@@ -26,7 +26,7 @@
   background-color: rgba(255, 255, 255, .97);
 }
 
-.output{
+.tipOutput{
   grid-column: 1 / -1;
   background-color: rgba(0, 0, 0, .75);
   display: flex;
@@ -36,28 +36,115 @@
   padding: 10px;
   word-wrap: break-word;
   word-break: break-all;
+  color: white;
+  size: 6rem;
 }
 
-.params{
+
+
+.price{
   outline: none;
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid white;
   grid-column: span 2;
   background: rgba(255, 255, 255, .6);
+  text-align: center;
+  padding-top: 30px;
 }
 
-.go{
-  background-color: #C4AEAD;
+.cost{
   outline: none;
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid white;
+  grid-column: span 2;
+  background: rgba(255, 255, 255, .6);
+  text-align: center;
+  padding-top: 30px;
+  grid-column: span 2;
+}
+
+.tipIn{
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  grid-column: span 2;
+  background: rgba(255, 255, 255, .6);
+  text-align: center;
+  padding-top: 30px;
+}
+
+.service{
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  grid-column: span 2;
+  background: rgba(255, 255, 255, .6);
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.ppl{
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  grid-column: span 2;
+  background: rgba(255, 255, 255, .6);
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.people{
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  grid-column: span 2;
+  background: rgba(255, 255, 255, .6);
+  text-align: center;
+  padding-top: 30px;
+}
+
+.tip-btn{
+  background-color: #C4AEAD;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  border: 1px solid white;
   grid-column: span 4;
 }
 
+.reset{
+  background-color: #C4AEAD;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  border: 1px solid white;
+  grid-column: span 2;
+}
+
 input {
-    text-align: center;
+ appearance: none;
+ border: none;
+ outline: none;
+ background: none;
+ display: block;
+ text-align: center;
+ width: 100%;
+ padding: 10px 15px;
+ border-bottom: 3px solid #33CC88;
+ font-size: 18px;
+
+ &::placeholder {
+  color: #666;
+  font-size: 14px;
+ }
 }
 
 body {
